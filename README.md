@@ -1,6 +1,6 @@
 # Etl_processing
 
-## Technologies
+## Technologies Used:
 - Python3
 - Airflow Bash Operator
 - Airflow
