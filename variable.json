@@ -1,11 +1,11 @@
 {
   "finalCsvName": "SALES_DELIVERY",
   "logFileName": "Etl_log.txt",
-  "mainTable":"SALES_TRANSACTION",
-  "joinTable":["STORE","SALES"],
-  "sourceTableNames":["STORE","CUSTOMER","SALES","SALES_TRANSACTION"],
-  "targetTableNames":["CUSTOMER","SALES_DELIVERY"],
+  "mainTable": "SALES_TRANSACTION",
+  "joinTable": ["STORE","SALES"],
+  "sourceTableNames": ["STORE","CUSTOMER","SALES","SALES_TRANSACTION"],
+  "targetTableNames": ["CUSTOMER","SALES_DELIVERY"],
   "outputEtlPath": "/home/user/.local/lib/python3.6/site-packages/airflow/example_dags/out_etl/",
-  "postgresUrl":"postgresql://dbname:password@127.0.0.1:5432/postgres"
+  "postgresUrl": "postgresql://dbname:password@127.0.0.1:5432/postgres"
    
 }
