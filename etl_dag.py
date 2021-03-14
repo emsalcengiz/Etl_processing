@@ -18,7 +18,7 @@ with DAG(
     dag_id='etl_dag',
     default_args=default_args,
     description='ETL DAG',
-    schedule_interval= '@once',#timedelta(minutes=20),
+    schedule_interval= timedelta(minutes=20),
     tags=['etl'],
 ) as dag:
     dag.doc_md = __doc__
